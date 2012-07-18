@@ -2,7 +2,7 @@
 # variable FW_PACKAGE_DEFAULT_MAINTAINER if non-empty at init time
 
 FW_PACKAGE_NAME="erlang-protobuffs"
-FW_PACKAGE_VERSION="0.6.0"
+FW_PACKAGE_VERSION="0.6.0loveit1"
 FW_PACKAGE_MAINTAINER="<engineering@loveit.com>"
 FW_PACKAGE_SHORT_DESCRIPTION="Google protobuffs implementation for Erlang."
 FW_PACKAGE_DESCRIPTION=`cat README`
@@ -27,7 +27,7 @@ FW_PACKAGE_BUILD_CONFLICTS=""
 # The FW_DUPLOAD_ARGS field is populated with the environment variable
 # FW_DEFAULT_DUPLOAD_ARGS if non-empty at init time
 
-FW_DUPLOAD_ARGS=${FW_DUPLOAD_ARGS-"-t juvo"}
+FW_DUPLOAD_ARGS=${FW_DUPLOAD_ARGS-"-t juvoprecise"}
 
 # scp+createrepo is used for submitting rpm packages to a package archive
 # The FW_RPM_REPO_USER, FW_RPM_REPO_HOST, FW_RPM_REPO_BASEDIR,
